@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div{
+        .card{
             background-color: black;
             color: white;
             width: 200px;
             padding: 20px;
         }
-        button{
+        .card__button{
             border: none;
             border: solid orange 1px;
             background: none;
@@ -19,7 +19,7 @@
             padding: 5px 20px 5px 20px;
             border-radius: 10px;
         }
-        button:hover{
+        .card__button:hover{
             background-color: orange;
             color: white;
             border: solid white 1px;
@@ -27,11 +27,11 @@
     </style>
 </head>
 <body>
-    <div>
-        <img src="https://picsum.photos/200" alt="">
-        <h1>Tech Update!</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quaerat voluptatum dolor corrupti laborum doloribus aspernatur molestiae suscipit fugiat nam, optio soluta ex adipisci. Dolore cupiditate illum eius nemo dolores.</p>
-        <button>Next</button>
+    <div class="card">
+        <img class="card__img" src="https://picsum.photos/200" alt="">
+        <h1 class="card__title">Tech Update!</h1>
+        <p class="card__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quaerat voluptatum dolor corrupti laborum doloribus aspernatur molestiae suscipit fugiat nam, optio soluta ex adipisci. Dolore cupiditate illum eius nemo dolores.</p>
+        <button class="card__button">Next</button>
     </div>
 </body>
 </html>
